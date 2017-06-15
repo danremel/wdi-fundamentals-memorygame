@@ -1,3 +1,4 @@
+"use strict";
 var cards = [
 	{
 		rank: "queen",
@@ -23,10 +24,9 @@ var cards = [
 var cardsInPlay = [];
 
 var cardOne = cards[0];
-var cardTwo = cards[2];
-
 cardsInPlay.push(cardOne);
 
+var cardTwo = cards[2];
 cardsInPlay.push(cardTwo);
 
 if (cardsInPlay.length === 2) {
@@ -39,11 +39,10 @@ var checkForMatch = function () {
 };
 var flipCard = function (cardId) {
 	if (cardsInPlay.length === 2) {
-	console.log("User flipped " + cards[cardId].rank);
-	console.log(cards[cardId].cardImage);
-	console.log(cards[cardId].suit);
-	cardsInPlay.push(cards[cardId].rank);
-	checkForMatch();
+		console.log("User flipped " + cards[cardId].rank);
+		console.log(cards[cardId].cardImage);
+		console.log(cards[cardId].suit);
+		checkForMatch();
 }};
 };
 flipCard(0);
