@@ -1,7 +1,7 @@
 h1 {
 	font-family:"Raleway", sans-serif;
 	font-weight: 400;
-	color:#FFFFFF;
+	color:#eeeeee;
 	letter-spacing:1px;
 	font-size:45px;
 	margin:0;
@@ -9,7 +9,7 @@ h1 {
 a {
 	font-family:"Raleway", sans-serif;
 	display:inline-block;
-	color:#FFFFFF;
+	color:#eeeeee;
 	font-weight: 400;
 	font-size: 18px;
 	padding: 0 18px;
@@ -20,27 +20,30 @@ a {
 }
 h2 {
 	font-family:"Raleway",sans-serif;
-	color:#0D2C40;
+	color:#eeeeee;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
 }
 p {
-	font-family:"Droid Serif", serif;
+	font-family:"Raleway", sans-serif;
 	line-height: 26px;
 	font-size: 18px;
+	color: #eeeeee;
 }
 body {
 	text-align:center;
 	margin: 0;
+	background-color: rgba(42, 90, 37, 0.55);
 }
 header {
-	background:#F15B31;
+	background: rgba(30, 150, 150, 0.9);
 	padding: 30px 20px;
 }
 nav {
-	background:#00A6B3;
+	background: rgba(130, 90, 50, 0.9);
 	padding: 20px 0;
+
 }
 a:hover {
 	text-decoration:underline;
@@ -49,6 +52,21 @@ main {
 	width:850px;
 	margin: 35px auto;
 }
+.restart {
+		font-family: "Raleway", sans-serif;
+		margin: 30px auto;
+		padding: 20px 30px;
+		display: block;
+		font-size: 18px;
+		border: none;
+		background: #F15B31;
+		background: linear-gradient(#111111, #aaaaaa);
+		border: 1px solid #222;
+		border-radius: 5px;
+		color: white;
+		text-shadow: 0px 1px 0 black;
+		cursor: pointer;
+	}
 img {
 	margin: 40px 8px 0 8px;
 }
